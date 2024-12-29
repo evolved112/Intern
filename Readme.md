@@ -15,11 +15,14 @@ goal:
 	+ git add HelloV1.py
 	+ git commit -m "add new branch"
 - push
+	* Push changes on local to remote
 	+ git push origin sub
 - pull
+	* Pull changes to local from remote
 	+ git pull (haven't found any proper use)
 - ignore
-	+ Create a gitignore file to not have to manually stage/add 
+	+ Create a blacklist of file formats to not be commit
+
 - create a merge/pull request
 	* clone main, create a new branch, push new branch, create merge/pull request, delete the new branch
 	+ git pull main
