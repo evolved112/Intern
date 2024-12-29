@@ -1,5 +1,9 @@
 goal:
 - generally about git
+	* Git contain
+		- local workspace: Where we code
+		- Staging area: Commited code + message from the local space
+		- remote workspace: pushed code from staging area
 - clone
     + Clone a pre-existing repo
     + git clone https://github.com/evolved112/Intern.git
